@@ -17,6 +17,12 @@ python -m pytest -q
 ```
 
 ## Results and recruiter walkthrough
+
+### Conversion Rate Comparison
+
+The following chart compares conversion rates between the control and treatment groups.
+
+![A/B Testing Conversion Rates](results/conversion_rates.png)
 - [`results/research_report.md`](results/research_report.md) — **actual computed findings**, design implications and limitations.
 - [`results/advanced_results.json`](results/advanced_results.json) — machine-readable reproducible metrics.
 - [`results/conversion_rates.png`](results/conversion_rates.png) — conversion chart.
