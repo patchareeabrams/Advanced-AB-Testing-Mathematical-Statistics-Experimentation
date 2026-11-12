@@ -1,0 +1,9 @@
+{
+  "lift_absolute":0.0105,
+  "lift_relative":0.1064908722,
+  "z_score":2.4337765163,
+  "p_value":0.0149422175,
+  "ci_low":0.0020452581,
+  "ci_high":0.0189547419,
+  "significant_at_05":true
+}

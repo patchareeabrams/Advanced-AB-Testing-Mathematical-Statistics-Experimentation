@@ -1,0 +1,50 @@
+{
+  "frequentist": {
+    "lift_absolute": 0.01050000000000001,
+    "lift_relative": 0.10649087221095345,
+    "z_score": 2.433776516258258,
+    "p_value": 0.01494221754370142,
+    "ci_low": 0.002045258114123186,
+    "ci_high": 0.018954741885876834,
+    "significant_at_05": true
+  },
+  "permutation": {
+    "observed_difference": 0.01050000000000001,
+    "permutation_p_value": 0.015196960607878424,
+    "repetitions": 5000
+  },
+  "bootstrap": {
+    "bootstrap_ci_low": 0.0021000000000000046,
+    "bootstrap_ci_high": 0.01910249999999997,
+    "repetitions": 5000
+  },
+  "bayesian": {
+    "posterior_probability_b_better": 0.99256,
+    "posterior_mean_lift": 0.010510373806708878,
+    "posterior_95pct_interval": [
+      0.00206694370975552,
+      0.01893038168843542
+    ],
+    "prior": "Beta(1,1)",
+    "draws": 50000
+  },
+  "design": {
+    "required_n_per_arm_for_10_to_11_percent": 14751
+  },
+  "simulation": {
+    "null_false_positive_rate": {
+      "rejection_rate": 0.05,
+      "trials": 3000,
+      "n_per_arm": 10000,
+      "p_a": 0.1,
+      "p_b": 0.1
+    },
+    "alternative_detection_rate": {
+      "rejection_rate": 0.6226666666666667,
+      "trials": 3000,
+      "n_per_arm": 10000,
+      "p_a": 0.1,
+      "p_b": 0.11
+    }
+  }
+}
